@@ -35,7 +35,7 @@ body{
     width:100vw;
     height:100vh;
     text-align: center;
-    animation: Text 5s 0;
+    animation: Text 1s linear;
     font-size: x-large;
     font-weight: bold;
 }
