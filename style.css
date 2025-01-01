@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow:hidden;
+}
+#image{
+    width:100vw;
+    height: 100vh;
+    position:absolute;
+    z-index: -1;
+    
+}
+.form{
+    width: 100vw;
+    height: 100vh;
+    background:none;
+    backdrop-filter: blur(8px); 
+    text-align: center; 
+    align-items: center;
+    position: relative;
+}
+#form{
+    position:absolute;
+    top:40%;
+    left: 40%;
+}
+.background{
+    background-image:url(bright.webp);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.Animation{
+    width:100vw;
+    height:100vh;
+    text-align: center;
+    animation: Text 5s 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+@keyframes Text{
+    50%{font-size: 20%;}
+    }
