@@ -42,3 +42,6 @@ body{
 @keyframes Text{
     50%{font-size: 20%;}
     }
+@media(max-width:400px){
+    .Animation{font-size: large;}
+}
